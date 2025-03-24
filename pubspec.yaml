@@ -1,57 +1,45 @@
 name: your_app_name
 description: A new Flutter authentication project
-
+# Added version number in format version_name+build_number
+version: 1.0.0+1
 environment:
   sdk: '>=3.3.0 <4.0.0'
-
 dependencies:
   flutter:
     sdk: flutter
   flutter_localizations:
     sdk: flutter
-
   # Authentication and HTTP
   http: ^1.2.0
   http_parser: ^4.0.2
   google_sign_in: ^6.2.1
   flutter_secure_storage: ^9.0.0
-
   # State Management
   flutter_riverpod: ^2.5.1
-
   # Image Handling
   image_picker: ^1.0.7
-
   # JWT Decoding and Validation
   jwt_decoder: ^2.0.1
-
   # UI and Design
   cupertino_icons: ^1.0.6
   percent_indicator: ^4.2.3
   fl_chart: ^0.67.0
   intl: ^0.19.0
-
   # Theme persistence
   shared_preferences: ^2.2.2
-
   # Permissions handling
   permission_handler: ^11.3.0
-
   # Environment variables
   flutter_dotenv: ^5.1.0
-
   # LiveKit for video conferencing
   livekit_client: ^2.0.0
   flutter_webrtc: 0.12.12+hotfix.1
-
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^3.0.1
-
 flutter:
   uses-material-design: true
-
   assets:
     - assets/images/
     - assets/images/google_logo.png
